@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/ArriaOpenSource/jsonlint/issues"
   },
-  "main": "lib/exports.js",
+  "main": "index.js",
   "bin": {
     "jsonlint": "lib/cli.js"
   },
