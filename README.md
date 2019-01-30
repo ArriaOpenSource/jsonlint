@@ -3,7 +3,7 @@ JSON Lint
 
 A pure [JavaScript version](http://zaach.github.com/jsonlint/) of the service provided at [jsonlint.com](http://jsonlint.com).
 
-This has been modified to allow running in the browser.
+This has been modified to allow running directly in a browser.
 
 ## MIT License
 
