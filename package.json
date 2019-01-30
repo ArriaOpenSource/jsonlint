@@ -1,23 +1,31 @@
 {
   "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
+  "contributors": [
+    {
+      "name": "Arria NLG",
+      "url": "https://www.arria.com"
+    }
+  ],
   "name": "jsonlint",
-  "description": "Validate JSON",
+  "description": "Validate and parse JSON",
   "keywords": [
     "json",
     "validation",
     "lint",
-    "jsonlint"
+    "jsonlint",
+    "parse",
+    "parser"
   ],
-  "version": "1.6.3",
+  "version": "1.7.0",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
+    "url": "git@github.com:ArriaOpenSource/jsonlint.git"
   },
   "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "https://github.com/ArriaOpenSource/jsonlint/issues"
   },
-  "main": "lib/jsonlint.js",
+  "main": "lib/exports.js",
   "bin": {
     "jsonlint": "lib/cli.js"
   },
@@ -36,6 +44,6 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "homepage": "http://zaach.github.com/jsonlint/",
+  "homepage": "https://github.com/ArriaOpenSource/jsonlint",
   "optionalDependencies": {}
 }
